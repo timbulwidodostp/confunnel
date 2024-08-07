@@ -131,11 +131,7 @@ for information about user-written commands for meta-analysis.
 
 {phang}{cmd:. import excel "https://raw.githubusercontent.com/timbulwidodostp/confunnel/main/confunnel/confunnel.xlsx", sheet("Sheet1") firstrow clear}{p_end}
 
-{phang}{cmd:. mylabels 0.02 0.2 1 5 50, myscale(log(@)) local(mylab)}{p_end}
-
 {phang}{cmd:. confunnel _meta_es _meta_se, twowayopts(xtitle("Odds ratios (log scale)") `"xlabel(`mylab')"')}{p_end}
-
-{phang}{cmd:. meta funnelplot, contours(1 5 10) xtitle("Odds ratios (log scale)") xlabel(`mylab')}{p_end}
 
 {title:References}
 
