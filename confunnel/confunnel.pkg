@@ -1,5 +1,11 @@
-d 'DEA': Data envelopment analysis
+d 'confunnel': Implementing contour enhanced funnel plots for meta-analysis Use confunnel With STATA 18
 d
-f dea.ado
-f dea.sthlp
-f coelli_table6.4.dta
+f confunnel.ado
+f confunnel.sthlp
+f confunnel_example.ado
+f mydays.ado
+f mydays.hlp
+f mylabels.ado
+f mylabels.sthlp
+f myticks.ado
+f myticks.hlp
